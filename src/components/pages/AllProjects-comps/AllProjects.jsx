@@ -137,7 +137,7 @@ const AllProjects = () => {
             </div>
 
             <div className='flex justify-center'>
-                <Link to='/' className='text-black font-semibold text-[16px] w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-t from-green-400 to-primary-color cursor-pointer mx-auto md:mx-0 self-end mt-8 hover:scale-110 duration-300'>
+                <Link to='/Main-Portfolio/' className='text-black font-semibold text-[16px] w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-t from-green-400 to-primary-color cursor-pointer mx-auto md:mx-0 self-end mt-8 hover:scale-110 duration-300'>
                     <span className=''><i className='bx bx-home-heart mr-2'></i></span>
                     Go back
                 </Link>
