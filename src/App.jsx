@@ -14,10 +14,10 @@ function App() {
       <SocialLinks />
 
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/about-me" element={<AboutPage />} />
-        <Route path="/projects" element={<AllProjectsPage />} />
-        <Route path="/technologies" element={<AllTechsPage />} />
+        <Route path="/Main-Portfolio" element={<HomePage />} />
+        <Route path="/Main-Portfolio/about-me" element={<AboutPage />} />
+        <Route path="/Main-Portfolio/projects" element={<AllProjectsPage />} />
+        <Route path="/Main-Portfolio/technologies" element={<AllTechsPage />} />
       </Routes>
 
       <GeneralFooter />
